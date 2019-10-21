@@ -1,11 +1,11 @@
 # Site settings
 author: David Bermudez
-title: 
+title: David Bermudez
 header-img: img/home-bg.png
 email: juan.bermudez1102@outlook.com
 copyright_name: David Bermudez
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Why I love Software Engineering
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  david-bermudez1102
