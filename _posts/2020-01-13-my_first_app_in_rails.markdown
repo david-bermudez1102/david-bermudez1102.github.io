@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "My First App in Rails!"
-date:       2020-01-13 22:35:49 +0000
+date:       2020-01-13 17:35:50 -0500
 permalink:  my_first_app_in_rails
 ---
 
 
-For my final project I deided to make @nswerville. The same App I made in Sinatra in a more abstract and simplified way.
+For my final project I decided to make @nswerville. The same App I made in Sinatra in a more abstract and simplified way.
 
 The main purpose of @nswerville is to let users ask questions in a easy way and get responses from anywhere around the world. So far, the app has features like asking, answering a question, following users, like a question, like an answer, etc. And this was all made in a short period of time thanks to the powerful Ruby on Rails Framework.
 
