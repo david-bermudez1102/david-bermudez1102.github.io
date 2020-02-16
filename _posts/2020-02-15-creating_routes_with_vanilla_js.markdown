@@ -131,6 +131,8 @@ Check out the oficial documentation for more info:
 
 https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpopstate
 
+https://willtaylor.blog/client-side-routing-in-vanilla-js/
+
 
 
 
