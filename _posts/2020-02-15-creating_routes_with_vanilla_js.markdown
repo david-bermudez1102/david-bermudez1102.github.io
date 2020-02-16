@@ -66,7 +66,7 @@ Great! Now the state of your app is saved in memory!
 
 Once that my view finishes rendering, I can now push the state
 
-`window.history.pushState({ Routine Object, load: show }, null, "/routines/${this.id}");`
+`window.history.pushState({ Routine Object, load: "show()" }, null, "/routines/${this.id}");`
 
 And voilà. the URL changes to **`/routines/${this.id}`**
 
@@ -74,7 +74,7 @@ Notice the object has the key "load". That key can be whatever you want it to be
 
 I am basically saying that the state is gonna be my routine object and to load the show() method. 
 
-it is important to pass the method as a callback(No parentheses) Otherwise you'd be calling it and it would throw an error.
+it is important to pass the method as a string, since Javascript serializes the state object.
 
 Ok. so everything seems to be working, **but what about when you refresh the page?** As you can see nothing happens. Or even worse, if you are not running a server and you opened your SPA from clicking on index.html, it will go to a page that does not exist!
 
@@ -123,8 +123,35 @@ window.onpopstate = function(event) {
   if (event.state) {
     state = event.state;
   }
-  state.load() //Here I call the method inside load once the state is popped or retreived
+  new Function(state.load)(); //Here we execute the string we passed on state.load as a function.
 };
+```
+
+
+Here is a complete example code that you can check :
+
+```
+  function sayHello() {
+    console.log("Hey there mate!");
+  }
+
+  const state = {
+    load: 'sayHello()'
+  }
+
+  window.history.replaceState(state, null, "");
+  
+  new Function(state.load)()
+
+  window.history.pushState(state, null, "sayinghello");
+
+  window.onpopstate = function(event) {
+    if (event.state) {
+      state = event.state;
+    }
+    new Function(state.load)();
+  };
+
 ```
 
 Check out the oficial documentation for more info:
