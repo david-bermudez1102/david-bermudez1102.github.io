@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Creating routes with Vanilla JS"
-date:       2020-02-16 04:31:26 +0000
+date:       2020-02-15 23:31:27 -0500
 permalink:  creating_routes_with_vanilla_js
 ---
 
@@ -126,6 +126,8 @@ window.onpopstate = function(event) {
   state.load() //Here I call the method inside load once the state is popped or retreived
 };
 ```
+
+Check out the oficial documentation for more info:
 
 https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpopstate
 
