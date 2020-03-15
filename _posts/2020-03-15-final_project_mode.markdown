@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Final Project mode!"
-date:       2020-03-15 22:12:27 +0000
+date:       2020-03-15 18:12:28 -0400
 permalink:  final_project_mode
 ---
 
