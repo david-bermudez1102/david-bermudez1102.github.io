@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "The beauty of React and building my own JSX like library."
-date:       2020-03-23 17:41:04 +0000
+date:       2020-03-23 13:41:05 -0400
 permalink:  the_beauty_of_react_and_building_my_own_jsx_like_library
 ---
 
 
-When I first started my journey with Flatiron I was skeptical to use JS based fontend frameworks or libraries (like Jquery) because I felt everything is made easier for anyone who uses them, and with time, basics learned would be forgotten. 
+When I first started my journey with Flatiron I was skeptical of using JS based fontend frameworks or libraries (like Jquery) because I felt everything is made easier for anyone who uses them, and with time, basics learned would be forgotten. 
 
 What if I learned Javascript, but started using JQuery and all of the sudden I have a bug that JQuery can't fix, and I forgot the Javascript bases since I've been using JQuery only? Well, I could debug for sure, but it would take me longer for sure.
 
