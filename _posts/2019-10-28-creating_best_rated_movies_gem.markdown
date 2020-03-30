@@ -8,11 +8,11 @@ permalink:  creating_best_rated_movies_gem
 
 
 
-The idea of this gem is to help users to check the best top rated movies by genre/year based in Rotten Tomatoes score with all of their details, like genre, year, score, description and who directed the movie.
+The idea of this gem is to help users to check the top rated movies by genre/year based in Rotten Tomatoes score and show all of their details, like genre, year, score, description and who directed the movie.
 
-If user wanted to see Today's Best Rated Movies, they would just type "today" and the program would just scrape through https://www.rottentomatoes.com/browse/cf-in-theaters/ and get all the information from there.
+If a user wanted to see Today's Best Rated Movies, they would just type "today" and the program would just scrape through https://www.rottentomatoes.com/browse/cf-in-theaters/ and get all the information from there.
 
-When user wanted to see a specific genre, we'd have to scrape the website fo that specific genre. Unfortunately, I wasn't able to find a a page in rotten tomatoes where all movies were listed, but I made sure to only scrape the site when user requests that specific genre.
+When user wanted to see a specific genre, we'd have to scrape the website to that specific genre. Unfortunately, I wasn't able to find a a page in rotten tomatoes where all movies were listed, but I made sure to only scrape the site when user requests that specific genre.
 
 I started by creating my gem with `bundle gem list_best_rated_movies` then adding two classes to the lib folder `Movie` and `Genre` which have a `Memorable` module in concerns. A Movie can have many genres and a Genre can have many movies.
 
