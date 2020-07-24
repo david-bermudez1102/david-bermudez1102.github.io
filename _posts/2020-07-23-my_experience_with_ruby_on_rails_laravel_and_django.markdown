@@ -1,16 +1,16 @@
 ---
 layout: post
 title:      "My experience with Ruby on Rails, Laravel and Django"
-date:       2020-07-24 03:09:39 +0000
+date:       2020-07-23 23:09:40 -0400
 permalink:  my_experience_with_ruby_on_rails_laravel_and_django
 ---
 
 
 As you've seen, there are multiple backend frameworks out there to choose from. Before flatiron school, I knew frameworks like Laravel, Rails and Django.
 
-Laravel is based on PHP, which makes it one of the fastest frameworks out there as PHP has been known for its performance(One of the reasons Facebook uses it for its backend).
+Laravel is based on PHP, which makes it one of the fastest frameworks out there as PHP has been known for its performance (one of the reasons Facebook still uses it for its backend).
 
-In my opinion, PHP is harder to read and debug and that's why lately I've decided using Rails or Django for my projects.
+I've been using PHP since I started coding and in my opinion, PHP is harder to read and debug compared to other languages and that's why lately I've decided using Rails or Django for my projects.
 
 Django is very easy as it uses the MVT model (model, view, template) and it also has a very fast performance as it's written in Python. However, in Django almost everything has to be configured manually, which, in my experience, makes it harder when developing a complex application and that's why I prefer Ruby on Rails.
 
