@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using Fast JSON Serializer – Ruby on Rails"
-date:       2020-07-31 03:06:12 +0000
+date:       2020-07-30 23:06:13 -0400
 permalink:  using_fast_json_serializer_ruby_on_rails
 ---
 
@@ -26,7 +26,7 @@ That’s it. Just make sure to modify the serializer by passing any attributes y
 
 `attributes :id, :name, :lastname`
 
-You’ll be surprised how fast it is compared to ActiveModel’s. In fact, I’ve fetched over 10000 records, with nested objects and everything, and they are rendered in around 40ms using the serializer's cache method combined with Rails cache [Stale?](https://github.com/Netflix/fast_jsonapi) Method.
+You’ll be surprised how fast it is compared to ActiveModel’s. In fact, I’ve fetched over 10000 records, with nested objects and everything, and they are rendered in around 40ms using the serializer's cache method combined with Rails cache [Stale?](https://apidock.com/rails/ActionController/ConditionalGet/stale%3F) Method.
 
 Besides the speed it offers, one of my favorite features is the key transformation. If you already covered JavaScript, you know it has a camel case convention (e.g. myAmazingFunction()), but in Ruby or Python, the convention is snake case (e.g. my_amazing_function).
 
