@@ -38,5 +38,5 @@ set_key_transform :camel_lower
 
 Once you refresh, you’ll see the keys transformed!
 
-Check out the documentation to see all the feautures it offers and make the best of your API!
+Check out the documentation to see all the feautures it offers and make the best out of your API!
 
